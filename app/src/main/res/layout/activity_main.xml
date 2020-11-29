@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center_horizontal"
+            android:text="Medipik"
+            android:textColor="#007991"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="left"
+            android:paddingVertical="20dp"
+            android:text="Bem-vindo! Por favor, faça o seu login."
+            android:textColor="#484e54"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/ic_baseline_person"
+            android:drawablePadding="10dp"
+            android:gravity="left"
+            android:hint="Endereço de e-mail"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:drawableLeft="@drawable/ic_baseline_lock"
+            android:drawablePadding="10dp"
+            android:gravity="left"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            android:gravity="right"
+            android:paddingVertical="5dp"
+            android:text="Esqueceu sua senha?"
+            android:textColor="#484e54"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/acessar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/button"
+            android:text="Acessar"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="Cadastrar"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+</LinearLayout>
